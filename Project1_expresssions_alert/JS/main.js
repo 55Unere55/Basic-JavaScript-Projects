@@ -18,7 +18,7 @@ var yellows=yellows.fontcolor("yellow");
 document.write (yellows);
 Name="type Name in here";
 function my_first_Function(){
-    var str = "Marry Christmas";
+    var str = "Merry Christmas";
     var result = str.fontcolor("green");
     document getElementById ("Green_Text").innerHTML = result;
 
