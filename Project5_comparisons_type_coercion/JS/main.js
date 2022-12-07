@@ -4,9 +4,9 @@ function my_Function() {
     document.getElementById("Test").innerHTML = 45/9;
 }
 
-document.getElementById("Test").innerHTML = isNaN('This is a string');
+document.getElementById("x").innerHTML = isNaN('This is a string');
 
-document.getElementById("Test").innerHTML = isNaN('998');
+document.getElementById("y").innerHTML = isNaN('998');
 
 document.write('4E210');
 
@@ -48,9 +48,7 @@ function not_Function() {
     document.getElementById("Not").innerHTML = !(5>10);
 }
 
-function not_Function() {
-    document.getElementById("Not").innerHTML = !(20>10);
-}
+
 
 
 
