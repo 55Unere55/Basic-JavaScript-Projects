@@ -5,7 +5,7 @@ function my_Dictionary() {
         design:"round",
         Pieces:500,
     };
-    document.getElementById("Dictionary").innerHTML = Cookies.Pieces;
+    document.getElementById("Dictionary").innerHTML="Cookies.Pieces";
 }
 
 

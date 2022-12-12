@@ -42,3 +42,4 @@ X--;
 document.write(X);
 
 window.alert(Math.random()*100);
+

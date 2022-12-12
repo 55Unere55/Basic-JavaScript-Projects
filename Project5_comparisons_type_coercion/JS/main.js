@@ -48,8 +48,27 @@ function not_Function() {
     document.getElementById("Not").innerHTML = !(5>10);
 }
 
+class Voter id="Vote_yes";
+{
+    string Age;
+    Boolean Active;
+    Voter('Age'){
+        Age: 18;
+        Active: true;
+    }
+    document.getElementById("Vote").innerHTML = !(18> = true);
+}
 
-
-
+class Voter id="vote_no";
+{
+    string Age;
+    Boolean Active;
+    Voter("Age"){
+        Age: 12;
+        Active: false;
+    }
+Active: false;
+cocument.getElementById("vote").innerHTML = (<18)= false);
+}
 
 
