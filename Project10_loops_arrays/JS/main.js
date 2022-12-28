@@ -1,8 +1,8 @@
 function Call_Loop(){
-    var Digit"8";
+    var Digit = "8";
     var X=1;
     while (X <11){
-        Digit += "<br>" + X'
+        Digit += "<br>" + X;
         X++;
     }
     document.getElementById("Loop").innerHTML = Digit;
@@ -23,14 +23,14 @@ function for_Loop(){
 
 function array_Function(){
     var Books = [];
-    Homemade_Pies [0] = "cooking";
-    Knitting_made_easy[1] = "knitting";
-    Weather [2] = "wether";
-    In_the_Woods[3] = "thriller";
-    document.getElementById("Array").innerHTML = "This Book is for" + Homemade_Pies[0] +".";
+    Books [0] = "cooking";
+    Books [1] = "knitting";
+    Books [2] = "weather";
+    Books [3] = "thriller";
+    document.getElementById("Array").innerHTML = "This Book is for" + Books[0] +".";
 }
 
-function constant_Funtion() {
+function constant_Function() {
     const Musical_Instrument = [type= "Guitar", brand = "Fender", color = "black"];
     Musical_Instrument.color = "blue";
     Musical_Instrument.price = "$900";
@@ -49,7 +49,7 @@ function pi_Function(){
     return Math.PI;
 }
 
-for (let i = 0, i = <10; i++) {
+for (i=0,i=<10;i++) {
     if (i==3) {break; }
     text += "The Number is" + i + "<br>";
 }
