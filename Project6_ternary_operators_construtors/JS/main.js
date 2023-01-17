@@ -10,7 +10,7 @@ var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
 var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
-    document.getElementById("Keywords_and_Constructors").innerHTML="Erik drives a"+Erik.Vehicle_Color"-colored"+Erik.Vehicle_Model+"manufactured in"Erik.Vehicle_Year;
+    document.getElementById("Keywords_and_Constructors").innerHTML="Erik drives a "+ Erik.Vehicle_Color +"-colored "+ Erik.Vehicle_Model +" manufactured in "+ Erik.Vehicle_Year;
 }
 
 function my_Cookies() {
@@ -25,9 +25,10 @@ function my_Cookies() {
 
 function count_Function() {
     document.getElementById("Counting").innerHTML = "Count()";
-    function Count();
+    function Count() {
 var Starting_point=9;
 function Plus_one() {Starting_point += 1;}
 Plus_One();
 return Starting_point;
+}
 }

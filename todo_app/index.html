@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>To do List</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <input id="task"><button id="add">Add item</button>
+        <hr>
+        <div id="tools"></div>
+
+       
+         <p id="myKornflakes"></p>
+         <p id="myKornflakes1"></p>
+<script>
+        var Kornflakes = {name: "Choco-Pops", color: "brown"};
+var JSONstring = JSON.stringify(Kornflakes);
+document.getElementById("myKornflakes").innerHTML = JSONstring;
+
+
+var Kornflakes1 = {name: "Choco-Pops" content: "Chocolate, Wheat, Water" color: "brown"};
+var JSONstring = JSON.stringify(Kornflakes1);
+var JSONstring = JSON.parse(Kornflakes1);
+document.getElementById("myKornflakes1").innerHTML = JSONstring.name + "are" + JSONstring.color;
+
+localStorage.setItem("myKornflakes", "Choco-Pops");
+document.getElementById(myKornflakes).innerHTML = localStorage.getItem("Name");
+</script>
+      <footer> 12.01.2023 &copy Tamara Iloka</footer>  
+    </body>
+</html>

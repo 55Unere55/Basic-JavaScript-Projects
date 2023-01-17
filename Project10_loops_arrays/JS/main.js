@@ -27,14 +27,15 @@ function array_Function(){
     Books [1] = "knitting";
     Books [2] = "weather";
     Books [3] = "thriller";
-    document.getElementById("Array").innerHTML = "This Book is for" + Books[0] +".";
+    document.getElementById("Array").innerHTML = " This Book is for " + Books[0] +".";
 }
 
 function constant_Function() {
     const Musical_Instrument = [type= "Guitar", brand = "Fender", color = "black"];
     Musical_Instrument.color = "blue";
     Musical_Instrument.price = "$900";
-    document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + "was" + Musical_Instrument.price;
+    Musical_Instrument.type = "Guitar";
+    document.getElementById("Constant").innerHTML = " The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
 }
 
 var X = 82;
@@ -49,7 +50,7 @@ function pi_Function(){
     return Math.PI;
 }
 
-for (i=0,i=<10;i++) {
+for (i=0; i <=10; i++) {
     if (i==3) {break; }
     text += "The Number is" + i + "<br>";
 }
